@@ -9,7 +9,7 @@
 .container {
     width: 800px;
     margin: auto;
-    margin-top: 90px;
+    margin-top: 60px;
     margin-bottom: 90px;
 }
 
@@ -47,6 +47,11 @@
 .projects, .skills {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.projects>section{
+    width: 50%;
 }
 
 h2 {
@@ -54,6 +59,9 @@ h2 {
 }
 
 @media screen and (max-width: 900px) {
+    .projects>section{
+        width: 100%;
+    }
     .container{
         width: 600px;
     }
@@ -66,5 +74,8 @@ h2 {
 @media screen and (max-width: 680px) {
     .container {
         width: 350px;
+    }
+    .projects>section{
+        width: 100%;
     }
 }
