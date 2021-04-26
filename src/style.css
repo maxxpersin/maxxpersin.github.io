@@ -5,6 +5,15 @@
     font-family: "Jost", sans-serif;
 }
 
+section.education h2 {
+    margin-bottom: 8px;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: medium;
+}
+
 .container {
     width: 800px;
     margin: auto;
